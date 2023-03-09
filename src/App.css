@@ -26,14 +26,25 @@ li{
 .box-head{
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
+  font-size: 18px;
   background: #133b5f;
 }
 
-.box-img{
-  background: rgb(43, 47, 58);
-  height: 300px;
+.tweet{
+  padding: 15px;
+  background: #1d4d77;
+  font-size: 18px;
 }
+
+.like-container{
+  padding: 10px;
+  text-align: right;
+  font-weight: 600;
+  color: #e2f2ff;
+  background: #133b5f;
+}
+
 
 .box-img img{
   height: 300px;
@@ -57,6 +68,8 @@ li{
 
 .box{
   width: 100%;
-  background: #ccc;
-  margin: 15px 0;
+  border-radius: 11px;
+  overflow: hidden;
+  margin: 55px 0;
+  box-shadow: 0 0 15px #00000020;
 }

@@ -11,7 +11,13 @@ const Mvits = (props) => (
             </div>
         </div>
         <div className="box-img">
-            <img src={props.img} />
+            {props.tweet}
+            {props.img}
+        </div>
+        <div className="like-container">
+            <div className="date">
+                {props.date}
+            </div>
         </div>
     </div>
 );
