@@ -15,9 +15,11 @@ const Mvits = (props) => (
             {props.img}
         </div>
         <div className="like-container">
+            
             <div className="date">
                 {props.date}
             </div>
+
         </div>
     </div>
 );

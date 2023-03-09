@@ -1,7 +1,21 @@
 import React from 'react';
 import Mvits from './Mvits';
-const Tweet = (props) => {
+const Tweet = () => {
 const tweets = [
+
+    {
+        name: "mugur", img: null,
+        pimg: "https://picsum.photos/300?image=12",
+        tweet: <div className='tweet'><p>güzel training yaptım</p></div>,
+        date: "09/OCT/23",
+    },
+    {
+        name: "mugur", img: null,
+        pimg: "https://picsum.photos/300?image=12",
+        tweet: <div className='tweet'><p>yarında yapıcam</p></div>,
+        date: "09/OCT/23",
+    },
+
     {   name: "ugur",
         img: <img src="https://picsum.photos/1300?image=501" />, 
         pimg: "https://picsum.photos/300?image=101", 
@@ -28,6 +42,7 @@ const tweets = [
         tweet: <div className='tweet'><p>fantastic</p></div>,
         date: "23/OCT/23", 
     },
+
 
 ];
 return(
