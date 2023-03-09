@@ -6,26 +6,26 @@ const tweets = [
     {
         name: "mugur", img: null,
         pimg: "https://picsum.photos/300?image=12",
-        tweet: <div className='tweet'><p>güzel training yaptım</p></div>,
+        tweet: <div className='tweet'><p>training text</p></div>,
         date: "09/OCT/23",
     },
     {
         name: "mugur", img: null,
         pimg: "https://picsum.photos/300?image=12",
-        tweet: <div className='tweet'><p>yarında yapıcam</p></div>,
+        tweet: <div className='tweet'><p>i wish i could stop the clocks</p></div>,
         date: "09/OCT/23",
     },
 
     {   name: "ugur",
         img: <img src="https://picsum.photos/1300?image=501" />, 
         pimg: "https://picsum.photos/300?image=101", 
-        tweet: <div className="tweet">iam listening to bilmem ne</div>,
+        tweet: <div className="tweet">iam listening donots</div>,
         date: "07/MAY/23", 
     },
 
     {   name: "mugur", img: null, 
         pimg: "https://picsum.photos/300?image=10",
-        tweet: <div className='tweet'><p>i love you dudea sdfasdf asd fsd fsdfsdf asd fasdf asdf asdf asd fasdf asd</p></div>, 
+        tweet: <div className='tweet'><p>longer text asd fasdf asdf asdf asd fasdf asd</p></div>, 
         date: "02/MAY/22", 
     },
 
